@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD51731F2BC48E46001E476B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD51731E2BC48E46001E476B /* AppDelegate.swift */; };
+		FD5173212BC48E46001E476B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5173202BC48E46001E476B /* SceneDelegate.swift */; };
+		FD5173232BC48E46001E476B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5173222BC48E46001E476B /* ViewController.swift */; };
+		FD5173262BC48E46001E476B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FD5173252BC48E46001E476B /* Base */; };
+		FD5173282BC48E47001E476B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD5173272BC48E47001E476B /* Assets.xcassets */; };
+		FD51732B2BC48E47001E476B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FD51732A2BC48E47001E476B /* Base */; };
+		FD5173362BC48E48001E476B /* Magic_Ball_8Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5173352BC48E48001E476B /* Magic_Ball_8Tests.swift */; };
+		FD5173402BC48E48001E476B /* Magic_Ball_8UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD51733F2BC48E48001E476B /* Magic_Ball_8UITests.swift */; };
+		FD5173422BC48E48001E476B /* Magic_Ball_8UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5173412BC48E48001E476B /* Magic_Ball_8UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD5173322BC48E48001E476B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD5173132BC48E46001E476B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD51731A2BC48E46001E476B;
+			remoteInfo = "Magic-Ball-8";
+		};
+		FD51733C2BC48E48001E476B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD5173132BC48E46001E476B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD51731A2BC48E46001E476B;
+			remoteInfo = "Magic-Ball-8";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD51731B2BC48E46001E476B /* Magic-Ball-8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic-Ball-8.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD51731E2BC48E46001E476B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD5173202BC48E46001E476B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FD5173222BC48E46001E476B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD5173252BC48E46001E476B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD5173272BC48E47001E476B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD51732A2BC48E47001E476B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD51732C2BC48E47001E476B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD5173312BC48E48001E476B /* Magic-Ball-8Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Magic-Ball-8Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD5173352BC48E48001E476B /* Magic_Ball_8Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magic_Ball_8Tests.swift; sourceTree = "<group>"; };
+		FD51733B2BC48E48001E476B /* Magic-Ball-8UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Magic-Ball-8UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD51733F2BC48E48001E476B /* Magic_Ball_8UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magic_Ball_8UITests.swift; sourceTree = "<group>"; };
+		FD5173412BC48E48001E476B /* Magic_Ball_8UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magic_Ball_8UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD5173182BC48E46001E476B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD51732E2BC48E48001E476B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5173382BC48E48001E476B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD5173122BC48E46001E476B = {
+			isa = PBXGroup;
+			children = (
+				FD51731D2BC48E46001E476B /* Magic-Ball-8 */,
+				FD5173342BC48E48001E476B /* Magic-Ball-8Tests */,
+				FD51733E2BC48E48001E476B /* Magic-Ball-8UITests */,
+				FD51731C2BC48E46001E476B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD51731C2BC48E46001E476B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD51731B2BC48E46001E476B /* Magic-Ball-8.app */,
+				FD5173312BC48E48001E476B /* Magic-Ball-8Tests.xctest */,
+				FD51733B2BC48E48001E476B /* Magic-Ball-8UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD51731D2BC48E46001E476B /* Magic-Ball-8 */ = {
+			isa = PBXGroup;
+			children = (
+				FD51731E2BC48E46001E476B /* AppDelegate.swift */,
+				FD5173202BC48E46001E476B /* SceneDelegate.swift */,
+				FD5173222BC48E46001E476B /* ViewController.swift */,
+				FD5173242BC48E46001E476B /* Main.storyboard */,
+				FD5173272BC48E47001E476B /* Assets.xcassets */,
+				FD5173292BC48E47001E476B /* LaunchScreen.storyboard */,
+				FD51732C2BC48E47001E476B /* Info.plist */,
+			);
+			path = "Magic-Ball-8";
+			sourceTree = "<group>";
+		};
+		FD5173342BC48E48001E476B /* Magic-Ball-8Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FD5173352BC48E48001E476B /* Magic_Ball_8Tests.swift */,
+			);
+			path = "Magic-Ball-8Tests";
+			sourceTree = "<group>";
+		};
+		FD51733E2BC48E48001E476B /* Magic-Ball-8UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD51733F2BC48E48001E476B /* Magic_Ball_8UITests.swift */,
+				FD5173412BC48E48001E476B /* Magic_Ball_8UITestsLaunchTests.swift */,
+			);
+			path = "Magic-Ball-8UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD51731A2BC48E46001E476B /* Magic-Ball-8 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD5173452BC48E48001E476B /* Build configuration list for PBXNativeTarget "Magic-Ball-8" */;
+			buildPhases = (
+				FD5173172BC48E46001E476B /* Sources */,
+				FD5173182BC48E46001E476B /* Frameworks */,
+				FD5173192BC48E46001E476B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Magic-Ball-8";
+			productName = "Magic-Ball-8";
+			productReference = FD51731B2BC48E46001E476B /* Magic-Ball-8.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD5173302BC48E48001E476B /* Magic-Ball-8Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD5173482BC48E48001E476B /* Build configuration list for PBXNativeTarget "Magic-Ball-8Tests" */;
+			buildPhases = (
+				FD51732D2BC48E48001E476B /* Sources */,
+				FD51732E2BC48E48001E476B /* Frameworks */,
+				FD51732F2BC48E48001E476B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD5173332BC48E48001E476B /* PBXTargetDependency */,
+			);
+			name = "Magic-Ball-8Tests";
+			productName = "Magic-Ball-8Tests";
+			productReference = FD5173312BC48E48001E476B /* Magic-Ball-8Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD51733A2BC48E48001E476B /* Magic-Ball-8UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD51734B2BC48E48001E476B /* Build configuration list for PBXNativeTarget "Magic-Ball-8UITests" */;
+			buildPhases = (
+				FD5173372BC48E48001E476B /* Sources */,
+				FD5173382BC48E48001E476B /* Frameworks */,
+				FD5173392BC48E48001E476B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD51733D2BC48E48001E476B /* PBXTargetDependency */,
+			);
+			name = "Magic-Ball-8UITests";
+			productName = "Magic-Ball-8UITests";
+			productReference = FD51733B2BC48E48001E476B /* Magic-Ball-8UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD5173132BC48E46001E476B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					FD51731A2BC48E46001E476B = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					FD5173302BC48E48001E476B = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = FD51731A2BC48E46001E476B;
+					};
+					FD51733A2BC48E48001E476B = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = FD51731A2BC48E46001E476B;
+					};
+				};
+			};
+			buildConfigurationList = FD5173162BC48E46001E476B /* Build configuration list for PBXProject "Magic-Ball-8" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD5173122BC48E46001E476B;
+			productRefGroup = FD51731C2BC48E46001E476B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD51731A2BC48E46001E476B /* Magic-Ball-8 */,
+				FD5173302BC48E48001E476B /* Magic-Ball-8Tests */,
+				FD51733A2BC48E48001E476B /* Magic-Ball-8UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD5173192BC48E46001E476B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5173282BC48E47001E476B /* Assets.xcassets in Resources */,
+				FD51732B2BC48E47001E476B /* Base in Resources */,
+				FD5173262BC48E46001E476B /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD51732F2BC48E48001E476B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5173392BC48E48001E476B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD5173172BC48E46001E476B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5173232BC48E46001E476B /* ViewController.swift in Sources */,
+				FD51731F2BC48E46001E476B /* AppDelegate.swift in Sources */,
+				FD5173212BC48E46001E476B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD51732D2BC48E48001E476B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5173362BC48E48001E476B /* Magic_Ball_8Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5173372BC48E48001E476B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5173422BC48E48001E476B /* Magic_Ball_8UITestsLaunchTests.swift in Sources */,
+				FD5173402BC48E48001E476B /* Magic_Ball_8UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD5173332BC48E48001E476B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD51731A2BC48E46001E476B /* Magic-Ball-8 */;
+			targetProxy = FD5173322BC48E48001E476B /* PBXContainerItemProxy */;
+		};
+		FD51733D2BC48E48001E476B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD51731A2BC48E46001E476B /* Magic-Ball-8 */;
+			targetProxy = FD51733C2BC48E48001E476B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD5173242BC48E46001E476B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD5173252BC48E46001E476B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD5173292BC48E47001E476B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD51732A2BC48E47001E476B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD5173432BC48E48001E476B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD5173442BC48E48001E476B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD5173462BC48E48001E476B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9J99ARAAYA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Magic-Ball-8/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.karthik.Magic-Ball-8";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD5173472BC48E48001E476B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9J99ARAAYA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Magic-Ball-8/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.karthik.Magic-Ball-8";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD5173492BC48E48001E476B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9J99ARAAYA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.karthik.Magic-Ball-8Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magic-Ball-8.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Magic-Ball-8";
+			};
+			name = Debug;
+		};
+		FD51734A2BC48E48001E476B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9J99ARAAYA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.karthik.Magic-Ball-8Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magic-Ball-8.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Magic-Ball-8";
+			};
+			name = Release;
+		};
+		FD51734C2BC48E48001E476B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9J99ARAAYA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.karthik.Magic-Ball-8UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Magic-Ball-8";
+			};
+			name = Debug;
+		};
+		FD51734D2BC48E48001E476B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9J99ARAAYA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.karthik.Magic-Ball-8UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Magic-Ball-8";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD5173162BC48E46001E476B /* Build configuration list for PBXProject "Magic-Ball-8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD5173432BC48E48001E476B /* Debug */,
+				FD5173442BC48E48001E476B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD5173452BC48E48001E476B /* Build configuration list for PBXNativeTarget "Magic-Ball-8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD5173462BC48E48001E476B /* Debug */,
+				FD5173472BC48E48001E476B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD5173482BC48E48001E476B /* Build configuration list for PBXNativeTarget "Magic-Ball-8Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD5173492BC48E48001E476B /* Debug */,
+				FD51734A2BC48E48001E476B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD51734B2BC48E48001E476B /* Build configuration list for PBXNativeTarget "Magic-Ball-8UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD51734C2BC48E48001E476B /* Debug */,
+				FD51734D2BC48E48001E476B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD5173132BC48E46001E476B /* Project object */;
+}
